@@ -41,17 +41,33 @@
 
     <div class="container">
       <div class="header">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation"><a href="index.html">Home</a></li>
-            <li role="presentation"><a href="research.html">Research</a></li>
-            <li role="presentation"><a href="travel.html">Travel</a></li>
-            <li role="presentation" class="active"><a href="#">Teaching & Outreach</a></li>
-            <li role="presentation"><a href="CV-CharlotteMason.pdf">CV</a></li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">Charlotte A. Mason</h3>
-      </div>
+      <!-- Navigation -->
+      <nav class="navbar navbar-default">
+      <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">Charlotte A. Mason</a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav nav-pills navbar-nav navbar-right">
+                    <li role="presentation"><a href="research.html">Research</a></li>
+                    <li role="presentation"><a href="travel.html">Travel</a></li>
+                    <li role="presentation" class="active"><a href="teaching.html">Teaching & Outreach</a></li>
+                    <li role="presentation"><a href="CV-CharlotteMason.pdf">CV</a></li>
+                  </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container -->
+      </nav>
+    </div>
 
     <div class="row marketing">
 
@@ -60,27 +76,30 @@
          <ul>
             <li>Host of <a href="http://www.lcogt.net/aot/">Astronomy on Tap, Santa Barbara</a></li>
             <li>Watch my June 2016 AoT talk 'Finding the First Galaxies in the Universe'<br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/oHfv5gIagSM?start=3793" frameborder="0" allowfullscreen></iframe></li>
+            <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oHfv5gIagSM?start=3793" frameborder="0" allowfullscreen></iframe></div></li>
           </ul>
       </div>
 
       <div class="col-lg-12">      
          <h4>Teaching</h4>
          <ul>
-            <li>Fall 2015, Spring 2016 - Earth 102: Astronomy Lab (SBCC)</li>
+            <li>Fall 2015 - Spring 2017 - Earth 102: Astronomy Lab (SBCC)</li>
             <li>Spring 2014 - Physics 1 (UCSB)</li>
             <li>Fall 2013 - Quantum Mechanics (UCSB)</li>
           </ul>
       </div>
-
-
     </div>
     <footer class="footer"></footer>   
     </div> <!-- /container -->
 
 
+     <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/readmore.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="/index_files/ie10-viewport-bug-workaround.js"></script>
-  
 
 <div id="feedly-mini" title="feedly Mini tookit"></div></body></html>
