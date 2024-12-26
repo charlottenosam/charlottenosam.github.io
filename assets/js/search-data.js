@@ -4,21 +4,14 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "About",
+    title: "about",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-resources",
-          title: "resources",
-          description: "Models and code",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/resources/";
-          },
-        },{id: "nav-group",
+  },{id: "nav-group",
           title: "group",
-          description: "members of the lab or group",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/group/";
@@ -36,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-resources",
+          title: "resources",
+          description: "Models and code",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/resources/";
           },
         },{id: "post-a-post-with-image-galleries",
       
