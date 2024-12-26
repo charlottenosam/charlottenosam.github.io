@@ -1,0 +1,82 @@
+- name: Charlotte Mason
+  degrees: PhD
+  image: group_cm.jpg
+  altimage:
+  position: Associate Professor
+  email: charlotte.mason [at] nbi.ku.dk
+  # website:
+  # scholar:
+  # twitter:
+  # github: winstonchiong
+  # orcid: "orcid.org/0000-0001-9188-1920"
+  description: My work focuses on understanding "Cosmic Dawn" -- when and how did the first galaxies form, what are their connections with the dark matter halos they form in, and how was intergalactic hydrogen reionized? Outside of work I try to spend as much of my time as possible away from a computer, usually in or on water (mostly swimming and rowing).
+
+- name: Kimi Kreilgaard
+  degrees: MSc
+  image: group_kimi.png
+  altimage:
+  position: PhD student
+  email:
+  scholar:
+  website:
+  description: I joined DAWN as a master’s student exploring how we can infer measures of the escape fraction of ionising photons from galaxies. I recently started as a PhD student in the group, where I will use JWST data to investigate how we can better measure the high redshift galaxy population and explore different hypotheses for why star-formation may be different in the early Universe. Outside of work I enjoy reading and drawing - and when the Danish weather allows it, you can find me playing football.
+
+- name: Ting-Yi Lu
+  degrees: MSc
+  image: group_ty1.png
+  altimage:
+  position: PhD student
+  email:
+  scholar:
+  website:
+  description: Ting-Yi joined DAWN from the National Tsing Hua University in Taiwan. Her thesis is focused on developing ways to measure the morphology of Reionization.
+
+- name: Gonzalo Prieto Lyon
+  degrees: MSc
+  image: group_gonzalo.jpg
+  altimage:
+  position: PhD student
+  email:
+  scholar:
+  website:
+  description: Gonzalo joined DAWN from the Pontificia Universidad Católica de Chile. His thesis is focused on understanding how Lyman alpha emission is produced and escapes high redshift galaxies.
+
+# - name: Jo Verwohlt Damm
+#   degrees: MSc
+#   image: group_jo.jpg
+#   altimage:
+#   position: PhD student
+#   email:
+#   scholar:
+#   website:
+#   description: Jo is a PhD student at DARK. She is.....
+
+- name: Viola Gelli
+  degrees: PhD
+  image: group_viola.jpeg
+  altimage:
+  position: Postdoc
+  email:
+  scholar:
+  website: 
+  description: I joined DAWN as a postdoc after getting my PhD at the University of Florence, under the supervision of Stefania Salvadori. My research focuses on studying the first galaxies in our Universe, investigating how they formed their stars and how they evolved. Beyond astrophysics, I’m passionate about music and exploring the world on my bike.
+
+- name: Anne Hutter
+  degrees: PhD
+  image: group_anne.jpg
+  altimage:
+  position: DAWN Fellow
+  email:
+  scholar:
+  website: https://annehutter.github.io/
+  description: My work focuses on understanding the Epoch of Reionisation with theoretical models and simulations - what was the nature of the first galaxies emerging in our Universe, and how did they evolve? What were their footprints in the ionisation state of the intergalactic hydrogen gas?
+
+- name: Victoria Strait
+  degrees: PhD
+  image: group_victoria.png
+  altimage:
+  position: DAWN Fellow
+  email:
+  scholar:
+  website: https://victoriastrait.github.io
+  description: Victoria got her PhD under the advisement of Maruša Bradač at the University of California Davis. She is now a DAWN Fellow co-supervising Gonzalo, and is interested in understanding the properties of early galaxies. Outside of work, she enjoys many forms of movement, including biking, climbing, and running.

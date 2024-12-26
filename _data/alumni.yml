@@ -1,0 +1,17 @@
+- name: Alexa Morales
+  degrees:
+  image: group_alexa.jpg
+  previously: REU student at Center for Astrophysics, from Florida International University
+  now: Graduate Student, University of Texas, Austin
+  email:
+  website:
+  description: Alexa modelled the evolution of the Lyman alpha luminosity function during Reionization. Read more in her [paper](https://ui.adsabs.harvard.edu/abs/2021arXiv210101205M/abstract)
+
+- name: Lily Whitler
+  degrees:
+  image: group_lily.png
+  previously: REU student at Center for Astrophysics, from Arizona State University
+  now: NSF Graduate Research Fellow, University of Arizonia
+  email:
+  website: https://astro.lilywhitler.com
+  description: Lily investigated the impact of scatter in the UV luminosity - halo mass relation on the the visibility of Lyman alpha emission during Reionization. Read more in her [paper](https://ui.adsabs.harvard.edu/abs/2020MNRAS.495.3602W/abstract)
