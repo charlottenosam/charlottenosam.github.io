@@ -28,77 +28,17 @@ nav_order: 2
 ---
 
 {% for person in site.data.members %}
-
-<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-
-<div class="container">
-    <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-      <img style="float: left; height:30%; width: 30%; border-radius: 50%;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
-    <div class="col-sm-8" >
-        <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4>
-        {{person.position}} <br>
-            {% if person.email %}
-            <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
-            {% endif %}
-            {% if person.twitter %}
-              <i class="fab fa-twitter"></i> <a href= "http://twitter.com/{{person.twitter}}" target="_blank"> @{{person.twitter}} </a> <br>
-            {% endif %}
-            {% if person.website %}
-              <i class="fa fa-globe"></i> <a href= "{{person.website}}" target="_blank">{{person.website}}</a> <br>
-            {% endif %}
-            {% if person.github %}
-              <i class="fab fa-github"></i> <a href= "https://github.com/{{person.github}}" target="_blank"> {{person.github}} </a> <br>
-            {% endif %}
-            {% if person.scholar %}
-              <i class="ai ai-google-scholar"></i> <a href= "http://scholar.google.com/citations?user={{person.scholar}}" target="_blank"> Scholar Citations </a> <br>
-            {% endif %}
-            {% if person.orcid %}
-              <i class="ai ai-orcid"></i> <a href="http://{{person.orcid}}" target="_blank"> {{person.orcid}}</a> <br>
-            {% endif %}
-        <p class="text-justify">{{person.description | markdownify}}</p>
-
-</div>
-</div>
-</div>
-<hr>
+{% include members.liquid %}}
 {% endfor %}
 
 ---
 
 ## former members
 
-<!-- {% for alum in site.data.alumni %} -->
-
-<!-- <div class="col-sm-12" >
-    <b>{{alum.name}}{% if alum.degrees %}, {{alum.degrees}} {% endif %}</b>    
-    {% if alum.website %}
-      <i class="fa fa-globe"></i> <a href= "{{alum.website}}" target="_blank">{{alum.website}}</a>
-    {% endif %}<br>
-    <i>previously:</i> {{alum.previously}} <br>
-    <i>now:</i> {{alum.now}}<br><br>
-</div>
-{% endfor %} -->
-
 {% for alum in site.data.alumni %}
-
-<div class="container">
-    <div id = "{{alum.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-      <img style="float: left; height: 15%; width: 15%; border-radius: 50%;" src="{{ alum.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{alum.name}}">
-    <div class="col-sm-10" >
-        <b>{{alum.name}}{% if alum.degrees %}, {{alum.degrees}} {% endif %}</b>
-        {{alum.position}}<br>
-        {% if alum.website %}
-          <i class="fa fa-globe"></i> <a href= "{{alum.website}}" target="_blank">{{alum.website}}<br></a>
-        {% endif %}
-        <i>previously:</i> {{alum.previously}} <br>
-        <i>now:</i> {{alum.now}}
-        <p class="text-justify">{{alum.description | markdownify}}</p>
-
-</div>
-</div>
-</div>
-<hr>
+{% include alumni.liquid %}
 {% endfor %}
+
 ---
 
 ## opportunities
