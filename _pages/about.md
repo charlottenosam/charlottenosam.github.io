@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: Associate Professor at the <a href="https://cosmicdawn.dk">Cosmic Dawn Center</a>, <a href="https://nbi.ku.dk/english/">Niels Bohr Institute, University of Copenhagen</a>.
 

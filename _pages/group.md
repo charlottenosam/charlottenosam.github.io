@@ -2,7 +2,7 @@
 layout: page #profiles
 permalink: /group/
 title: group
-description: members of the lab or group
+description: 
 nav: true
 nav_order: 2
 
@@ -28,10 +28,9 @@ nav_order: 2
 ---
 
 {% for person in site.data.members %}
-{% include members.liquid %}}
+{% include members.liquid %}
 {% endfor %}
 
----
 
 ## former members
 
@@ -39,7 +38,6 @@ nav_order: 2
 {% include alumni.liquid %}
 {% endfor %}
 
----
 
 ## opportunities
 
